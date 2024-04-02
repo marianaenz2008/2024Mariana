@@ -1,0 +1,54 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #ffef94;
+}
+
+li{
+    width: 300px;
+}
+
+.comeco{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hpLogo{
+    width:30%;
+}
+
+.personagens{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+
+.p{
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #000;
+    margin: 20px 0;
+}
+
+.cent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(204, 0, 255);
+}
